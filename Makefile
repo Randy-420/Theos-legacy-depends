@@ -1,5 +1,3 @@
-include $(THEOS)/makefiles/common.mk
-
 #export THEOS_PACKAGE_SCHEME = rootless
 
 ifeq ($(THEOS_PACKAGE_SCHEME), rootful)
@@ -12,5 +10,5 @@ else
 	THEOS_PACKAGE_DIR = DEBs
 endif
 
-include $(THEOS_MAKE_PATH)/tool.mk
+include $(THEOS)/makefiles/common.mk
 include $(THEOS_MAKE_PATH)/aggregate.mk
