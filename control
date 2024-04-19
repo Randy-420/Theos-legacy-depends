@@ -1,0 +1,14 @@
+Package: com.randy420.taidependslegacy
+Name: Theos Auto Installer Dependencies for Legacy Jailbreaks
+Depends: org.theos.dependencies, firmware (<= 12.0)
+Conflicts: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Architecture: iphoneos-arm
+Description: dependencies for legacy jailbreaks
+Depiction: https://Randy-420.GitHub.io/depic/taidependslegacy.html
+Homepage: https://theemeraldisle.family
+Maintainer: Randy420 <randy.skinner@hotmail.com>
+Author: Randy420 <randy.skinner@hotmail.com>
+Version: 0.1
+Replaces: com.randy420.taidependscoolstar, com.randy420.taidependsother
+Section: System
+Tag: role::hacker
